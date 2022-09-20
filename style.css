@@ -1,0 +1,80 @@
+*{
+    font-family: sans-serif;
+}
+/* menu section */
+.mamun{
+    height: 30px;
+
+}
+.navbar-toggler-icon{
+    background-image: url(media/menu.png);
+}
+/* landing section */
+#home{
+    background-image: url(media/hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.home-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-center h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+.home-center p{
+    color: white;
+    font-family: 500;
+
+
+}
+.home-btn .btn-shop{
+    border: 2px solid white;
+    color: black;
+
+   background: white;
+  
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+
+.home-btn .btn-member{
+    border: 2px solid white;
+    color: black;
+    background: white;
+  
+    font-size: 20px;
+    padding: 5px 15px;
+
+} 
+#jio{
+    color: goldenrod;
+}
+.text-center{
+   color: navy;
+}
+.carousel-item img{
+    height: 500px;
+}
+.text-white:hover{
+    background: darkblue;
+}
+.fa-brands:hover{
+    background-color: burlywood;
+}
+
+
+.col-md-4:hover{
+margin-top: -30px;
+    margin-left: -30px;
+    transform: rotate(360deg);
+    background: darkslategray;
+}
